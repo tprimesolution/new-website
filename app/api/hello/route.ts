@@ -1,3 +1,6 @@
-export async function GET(request: Request) {
-  return new Response("Hello, Next.js!");
-}
+// next.config.js
+const nextConfig = {
+  // Remove or do not include output: 'export'
+};
+
+module.exports = nextConfig;
