@@ -1,6 +1,5 @@
-// next.config.js
-const nextConfig = {
-  // Remove or do not include output: 'export'
-};
+export const dynamic = "force-static"; // Add this configuration
 
-module.exports = nextConfig;
+export async function GET(request: Request) {
+  return new Response("Hello, Next.js!");
+}
