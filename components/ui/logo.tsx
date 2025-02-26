@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/technoprime-logo.jpeg";
+import logo from "@/public/images/technoprime-logo.png";
 
 export default function Logo() {
   return (
