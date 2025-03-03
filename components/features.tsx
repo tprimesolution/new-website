@@ -36,16 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+                Our Services
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+              Built for modern Solutions
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+            Custom IT Solutions for Your Successful Business
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -73,6 +71,86 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              Cyber Security
+              </h3>
+              <p className="text-indigo-200/65">
+              We provide the strength and security of firewalls to protect online data from malicious sources.
+              </p>
+            </article>
+            <article>
+              <svg
+                className="mb-3 fill-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                <path
+                  fillOpacity=".48"
+                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              Data Analytics & solution
+              </h3>
+              <p className="text-indigo-200/65">
+              We analyze the data to better understand your business, increase and accelerate the business value.
+              </p>
+            </article>
+            <article>
+              <svg
+                className="mb-3 fill-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                <path
+                  fillOpacity=".48"
+                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              DevSecOps & Automation
+              </h3>
+              <p className="text-indigo-200/65">
+              Our DevSecOps Transformation & Automation service modernizes your software delivery pipeline. Through automation and security integration, your teams gain agility, consistency, and control. Deliver secure, high-quality software faster and with lower risk.
+              </p>
+            </article>
+            <article>
+              <svg
+                className="mb-3 fill-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                <path
+                  fillOpacity=".48"
+                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              Cloud Solution
+              </h3>
+              <p className="text-indigo-200/65">
+              We provide professional and cost-effective Cloud solutions on different Cloud Platforms to help enterprises grow, and develop, host, manage and scale their applications on Cloud.
+              </p>
+            </article>
+            {/* <article>
+              <svg
+                className="mb-3 fill-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                <path
+                  fillOpacity=".48"
+                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
                 Project Milestones
               </h3>
               <p className="text-indigo-200/65">
@@ -87,15 +165,35 @@ export default function Features() {
                 width={24}
                 height={24}
               >
-                <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
-                <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
+                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
+                <path
+                  fillOpacity=".48"
+                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Team Views
+                Project Milestones
               </h3>
               <p className="text-indigo-200/65">
                 Track progress across custom flows for your team. Find the right
                 balance for the user, privacy and security.
+              </p>
+            </article> */}
+            <article>
+              <svg
+                className="mb-3 fill-indigo-500"
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+              >
+                <path fillOpacity=".48" d="M7 8V0H5v8h2Zm12 16v-4h-2v4h2Z" />
+                <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
+              </svg>
+              <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
+              Apps Development
+              </h3>
+              <p className="text-indigo-200/65">
+              We design user-friendly, highly usable software with responsive interface to bring about great experience.
               </p>
             </article>
             <article>
@@ -112,11 +210,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Advanced Search
+              SEO Optimization
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              we offer comprehensive SEO optimization services Boost your website’s visibility, drive organic traffic, and rank higher with our expert SEO optimization services.
               </p>
             </article>
             <article>
@@ -138,11 +235,10 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Strategic Initiatives
+              Artificial Intelligence
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+                We excel in designing, developing, and integrating customized solutions by combining the power of cloud and AI/ML.Discover now.
               </p>
             </article>
             <article>
@@ -180,11 +276,10 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Unified Timeline
+              IT Consulting Service
               </h3>
               <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              We propose feasible and practical plans for successfully transform businesses based on their needs.
               </p>
             </article>
           </div>
